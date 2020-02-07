@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         fprintf(stderr, "Usage: %s process_nickname\n",argv[0]);
         exit(1);
     }
-    address_from_malloc = (int *)malloc(sizeof(int));
+//    address_from_malloc = (int *)malloc(sizeof(int));
     srand((int)time(NULL)+(int)getpid());
     a = rand();
     fprintf(stderr, "\nProcess %s is using CPU: %d. Value of a is %lf and address of a is %p\n",argv[1], cpu, a, &a);
