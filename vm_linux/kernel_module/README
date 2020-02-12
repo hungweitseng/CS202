@@ -1,0 +1,11 @@
+
+This directory contains the source code for a kernel module. 
+You may try to "make" with root permission (e.g. "sudo make"). 
+If it success, you will see a "mymodule.ko" under this directory. 
+
+You can then type "make all" using root permission to install the 
+kernel module and the header into system directories. After you are 
+done with this, you can now "insmod mymodule.ko" using root. If 
+this success, you can navigate to /dev directory and you should 
+see a "mymodule" device under this directory! 
+

@@ -1,0 +1,3 @@
+obj-m := mymodule.o 
+mymodule-y :=
+ccflags-y := -I$(src)/include 
